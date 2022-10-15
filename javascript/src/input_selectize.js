@@ -15,6 +15,7 @@ input.register({
      */
 
     //let first = [{value: "", label: "(All)"}];
+    let first = [];
     let items = util.dataframeToD3(data.items);
     let opts = {
       options: first.concat(items),

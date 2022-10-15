@@ -797,7 +797,8 @@ input.register({
      * group: "ct-groupname"
      */
 
-    var first = [{ value: "", label: "(All)" }];
+    //let first = [{value: "", label: "(All)"}];
+    var first = [];
     var items = util.dataframeToD3(data.items);
     var opts = {
       options: first.concat(items),
